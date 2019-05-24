@@ -1,0 +1,63 @@
+.introduction, .project-desc{
+    padding-top: 25px;
+}
+.top-bar{
+    // .img{
+    //     visibility: center;
+    // }
+    border-bottom: 1px solid $light-gray;
+    a.brand{
+        padding: 0px 0px 0px 0px !important;
+    }
+    .menu-text{
+        padding: 0.4rem 0.3rem 0.3rem 0.7rem;
+    }
+}
+.sections{
+    h2{
+        font-size: 1.5rem;
+    }
+}
+.footer{
+    padding-top: 1rem;
+    color: $white;
+    background-color: lighten($black, 10%);
+    margin-top: 1rem;
+}
+.tutorials{
+    padding-top: 15px;
+}
+.tutorial{
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: darken($white, 1%);
+    .label{
+        margin-right: 5px;
+    }
+    .desc{
+        padding-top: 0.2rem;
+        color: $dark-gray;
+        font-size: 0.8rem;
+        margin-bottom: 0.1rem;
+    }
+    .author{
+        font-size: 0.8rem;
+    }
+
+}
+.details{
+    padding-top: 15px;
+}
+.tutorial-body{
+    img{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+}
+.authors-list{
+    .author{
+        margin-bottom: 1rem;
+        padding-top: 0.5rem;
+    }
+}
