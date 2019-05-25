@@ -67,7 +67,7 @@
 .grid-container{
     padding-top: 0.5rem;
 }
-code{
+code, pre,code[class*="language-"], pre[class*="language-"]{
     direction:ltr !important;
 }
 .text-center{
